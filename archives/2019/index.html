@@ -1,744 +1,323 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<!-- Head tag -->
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-<title>Archives: 2019 - Hexo</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <meta name="theme-color" content="#600090">
+    <meta name="msapplication-navbutton-color" content="#600090">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#600090">
+    <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png">
+    <link rel="alternate" type="application/atom+xml" title="Hexo" href="/atom.xml">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
+    <title>
+        
+        
+        
+    </title>
 
+    <link rel="canonical" href="http://yoursite.com/archives/2019/">
 
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2019/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="default">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/blog-style.css">
 
-
-
-
-
-<link rel="icon" href="/images/favicon.svg">
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,600|Source+Code+Pro">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
-
-
-    
-    
-    
-    <style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
-    
-
-    
-    
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
-    
-
-    
-    
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
-
-
-    
-    
-    
-    
-
-<link rel="stylesheet" href="/css/back-to-top.css">
-
-
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-<link rel="stylesheet" href="/css/progressbar.css">
-<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
-
-    
-    
-    
-
-    
-
-
-<link rel="stylesheet" href="/css/style.css">
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
 </head>
-<body class="is-3-column">
-    <nav class="navbar navbar-main">
-    <div class="container">
-        <div class="navbar-brand is-flex-center">
-            <a class="navbar-item navbar-logo" href="/">
-            
-                <img src="/images/logo.svg" alt="Hexo" height="28">
-            
+
+<style>
+
+    header.intro-header {
+        background-image: url('')
+    }
+</style>
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="" class="animated fadeIn">
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost="false" data-istags="false
+" data-ishome="false">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand animated pulse" href="/">
+                <span class="brand-logo">
+                    Hexo
+                </span>
+                's Blog
             </a>
         </div>
-        <div class="navbar-menu">
-            
-            <div class="navbar-start">
-                
-                <a class="navbar-item" href="/">Home</a>
-                
-                <a class="navbar-item" href="/archives">Archives</a>
-                
-                <a class="navbar-item" href="/categories">Categories</a>
-                
-                <a class="navbar-item" href="/tags">Tags</a>
-                
-                <a class="navbar-item" href="/about">About</a>
-                
-            </div>
-            
-            <div class="navbar-end">
-                
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <!-- /.navbar-collapse -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+					
                     
-                    
-                    <a class="navbar-item" target="_blank" title="Download on GitHub" href="http://github.com/ppoffice/hexo-theme-icarus">
-                        
-                        <i class="fab fa-github"></i>
-                        
-                    </a>
-                    
-                
-                
-                
-                <a class="navbar-item search" title="Search" href="javascript:;">
-                    <i class="fas fa-search"></i>
-                </a>
-                
+					
+					
+                </ul>
             </div>
         </div>
     </div>
+    <!-- /.container -->
 </nav>
-    
-    <section class="section">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+//    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
 
-<div class="card widget">
-    <div class="card-content">
-        <h3 class="tag is-link">
-        2019
-        </h3>
-        <div class="timeline">
-        
-            <article class="media">
-                
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-01-12T03:52:04.058Z">2019-01-12</time>
-                        <a href="/2019/01/12/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                            </div>
-                        </div>
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+<!-- Main Content -->
+
+
+<!-- Page Header -->
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 visible-xs-block visible-sm-block">
+    <div class="row">
+        <header class="intro-header">
+            <div class="container">
+                <div class="site-heading text-center">
+                    <div class="about-me">
+                        <!--移动端头部显示-->
+                        <img src="">
+                        <h5><a href="/about/">John Doe</a></h5>
+                        <p></p>
                     </div>
                 </div>
-            </article>
-        
-        </div>
-    </div>
-</div>
-
-
-</div>
-                
-
-
-
-
-<div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left ">
-    
-        
-<div class="card widget">
-    <div class="card-content">
-        <nav class="level">
-            <div class="level-item has-text-centered">
-                <div>
-                    <img class="image is-128x128 has-mb-6" src="/images/avatar.png" alt="Your name">
-                    
-                    <p class="is-size-4 is-block">
-                        Your name
-                    </p>
-                    
-                    
-                    <p class="is-size-6 is-block">
-                        Your title
-                    </p>
-                    
-                    
-                    <p class="is-size-6 is-flex is-flex-center has-text-grey">
-                        <i class="fas fa-map-marker-alt has-mr-7"></i>
-                        <span>Your location</span>
-                    </p>
-                    
-                </div>
             </div>
-        </nav>
-        <nav class="level is-mobile">
-            <div class="level-item has-text-centered is-marginless">
-                <div>
-                    <p class="heading">
-                        Posts
-                    </p>
-                    <p class="title has-text-weight-normal">
-                        2
-                    </p>
-                </div>
-            </div>
-            <div class="level-item has-text-centered is-marginless">
-                <div>
-                    <p class="heading">
-                        Category
-                    </p>
-                    <p class="title has-text-weight-normal">
-                        1
-                    </p>
-                </div>
-            </div>
-            <div class="level-item has-text-centered is-marginless">
-                <div>
-                    <p class="heading">
-                        Tag
-                    </p>
-                    <p class="title has-text-weight-normal">
-                        1
-                    </p>
-                </div>
-            </div>
-        </nav>
-        <div class="level">
-            <a class="level-item button is-link is-rounded" href="http://github.com/ppoffice">
-                Follow</a>
-        </div>
-        
-        
-        <div class="level is-mobile">
-            
-            <a class="level-item button is-white is-marginless" target="_blank" title="Github" href="http://github.com/ppoffice">
-                
-                <i class="fab fa-github"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank" title="Facebook" href="http://facebook.com">
-                
-                <i class="fab fa-facebook"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank" title="Twitter" href="http://twitter.com">
-                
-                <i class="fab fa-twitter"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank" title="Dribbble" href="http://dribbble.com">
-                
-                <i class="fab fa-dribbble"></i>
-                
-            </a>
-            
-            <a class="level-item button is-white is-marginless" target="_blank" title="RSS" href="/">
-                
-                <i class="fas fa-rss"></i>
-                
-            </a>
-            
-        </div>
-        
+        </header>
     </div>
 </div>
-    
-        
-    
-        
+<!-- Main Content -->
+<div class="container custom-haojen-container">
+    <!-- Post Container -->
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
+            <!-- Main Content -->
 
-<div class="card widget">
-    <div class="card-content">
-        <div class="menu">
-        <h3 class="menu-label">
-            Links
-        </h3>
-        <ul class="menu-list">
+
+
+<div class="post-preview " style="background-image: url('')">
+    <a href="/2019/01/12/hello-world/">
+        <h2 class="post-title">
+            Hello World
+        </h2>
+        <p class="post-meta">
+            <i class="fa fa-calendar" aria-hidden="true"></i> 2019-01-12
+        </p>
         
-            <li>
-                <a class="level is-mobile" href="https://hexo.io" target="_blank">
-                    <span class="level-left">
-                        <span class="level-item">Hexo</span>
-                    </span>
-                    <span class="level-right">
-                        <span class="level-item tag">hexo.io</span>
-                    </span>
-                </a>
-            </li>
-        
-            <li>
-                <a class="level is-mobile" href="https://github.com/ppoffice" target="_blank">
-                    <span class="level-left">
-                        <span class="level-item">PPOffice</span>
-                    </span>
-                    <span class="level-right">
-                        <span class="level-item tag">github.com</span>
-                    </span>
-                </a>
-            </li>
-        
-        </ul>
+        <div class="post-content-preview">
+            <p>
+                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer i..
+            </p>
         </div>
-    </div>
+    </a>
+
 </div>
 
+<hr>
 
+
+
+
+<!-- 翻页 pager -->
+
+<ul class="pager">
     
-        
-<div class="card widget">
-    <div class="card-content">
-        <div class="menu">
-            <h3 class="menu-label">
-                Categories
-            </h3>
-            <ul class="menu-list">
-            <li>
-        <a class="level is-marginless" href="/categories/technology/">
-            <span class="level-start">
-                <span class="level-item">technology</span>
-            </span>
-            <span class="level-end">
-                <span class="level-item tag">1</span>
-            </span>
-        </a></li>
-            </ul>
+    
+</ul>
+
+
         </div>
-    </div>
-</div>
-    
-        
-<div class="card widget">
-    <div class="card-content">
-        <h3 class="menu-label">
-            Tag Cloud
-        </h3>
-        <a href="/tags/web/" style="font-size: 10px;">web</a>
-    </div>
-</div>
+        <!-- Sidebar Container -->
+        <div class="
+                col-lg-3 col-lg-offset-0
+                col-md-3 col-md-offset-0
+                col-sm-12
+                col-xs-12
+                sidebar-container
+            ">
 
-    
-    
-        <div class="column-right-shadow is-hidden-widescreen ">
-        
-            
-<div class="card widget">
-    <div class="card-content">
-        <h3 class="menu-label">
-            Recent
-        </h3>
-        
-        <article class="media">
-            
-            <a href="/2019/01/12/hello-world/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hello World">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-01-12T03:52:04.058Z">2019-01-12</time></div>
-                    <a href="/2019/01/12/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
-                    <p class="is-size-7 is-uppercase">
+            <!-- About Me -->
+            <section class="visible-md visible-lg" style="padding: 0 18px">
+                <div class="short-about">
+                    <!--侧边栏头像-->
+                    
+                    <h5><a href="/about/">John Doe</a></h5>
+                    
+                    <hr>
+                    <!-- SNS Link 社交 -->
+                    <ul class="list-inline">
                         
-                    </p>
-                </div>
-            </div>
-        </article>
-        
-        <article class="media">
-            
-            <a href="/2018/05/30/webservice/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="httpclent调用webservice">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2018-05-30T07:20:36.000Z">2018-05-30</time></div>
-                    <a href="/2018/05/30/webservice/" class="has-link-black-ter is-size-6">httpclent调用webservice</a>
-                    <p class="is-size-7 is-uppercase">
-                        <a class="has-link-grey -link" href="/categories/technology/">technology</a>
-                    </p>
-                </div>
-            </div>
-        </article>
-        
-    </div>
-</div>
-
-        
-            <div class="card widget">
-    <div class="card-content">
-        <div class="menu">
-        <h3 class="menu-label">
-            Archives
-        </h3>
-        <ul class="menu-list">
-        
-        <li>
-            <a class="level is-marginless" href="/archives/2019/01/">
-                <span class="level-start">
-                    <span class="level-item">January 2019</span>
-                </span>
-                <span class="level-end">
-                    <span class="level-item tag">1</span>
-                </span>
-            </a>
-        </li>
-        
-        <li>
-            <a class="level is-marginless" href="/archives/2018/05/">
-                <span class="level-start">
-                    <span class="level-item">May 2018</span>
-                </span>
-                <span class="level-end">
-                    <span class="level-item tag">1</span>
-                </span>
-            </a>
-        </li>
-        
-        </ul>
-        </div>
-    </div>
-</div>
-        
-            <div class="card widget">
-    <div class="card-content">
-        <div class="menu">
-            <h3 class="menu-label">
-                Tags
-            </h3>
-            <ul class="menu-list">
-                
-                <li>
-                    <a class="level is-marginless" href="/tags/web/">
-                        <span class="level-start">
-                            <span class="level-item">web</span>
-                        </span>
-                        <span class="level-end">
-                            <span class="level-item tag">1</span>
-                        </span>
-                    </a>
-                </li>
-                
-            </ul>
-        </div>
-    </div>
-</div>
-        
-        </div>
-    
-</div>
-
-                
-
-
-
-
-<div class="column is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only has-order-3 column-right ">
-    
-        
-<div class="card widget">
-    <div class="card-content">
-        <h3 class="menu-label">
-            Recent
-        </h3>
-        
-        <article class="media">
-            
-            <a href="/2019/01/12/hello-world/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hello World">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-01-12T03:52:04.058Z">2019-01-12</time></div>
-                    <a href="/2019/01/12/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
-                    <p class="is-size-7 is-uppercase">
                         
-                    </p>
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+                    </ul>
                 </div>
-            </div>
-        </article>
-        
-        <article class="media">
+            </section>
+
+            <!-- Featured Tags  标签 -->
             
-            <a href="/2018/05/30/webservice/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="httpclent调用webservice">
-                </p>
-            </a>
+
             
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2018-05-30T07:20:36.000Z">2018-05-30</time></div>
-                    <a href="/2018/05/30/webservice/" class="has-link-black-ter is-size-6">httpclent调用webservice</a>
-                    <p class="is-size-7 is-uppercase">
-                        <a class="has-link-grey -link" href="/categories/technology/">technology</a>
-                    </p>
-                </div>
-            </div>
-        </article>
-        
+
+        </div>
     </div>
 </div>
 
-    
-        <div class="card widget">
-    <div class="card-content">
-        <div class="menu">
-        <h3 class="menu-label">
-            Archives
-        </h3>
-        <ul class="menu-list">
-        
-        <li>
-            <a class="level is-marginless" href="/archives/2019/01/">
-                <span class="level-start">
-                    <span class="level-item">January 2019</span>
-                </span>
-                <span class="level-end">
-                    <span class="level-item tag">1</span>
-                </span>
-            </a>
-        </li>
-        
-        <li>
-            <a class="level is-marginless" href="/archives/2018/05/">
-                <span class="level-start">
-                    <span class="level-item">May 2018</span>
-                </span>
-                <span class="level-end">
-                    <span class="level-item tag">1</span>
-                </span>
-            </a>
-        </li>
-        
-        </ul>
-        </div>
-    </div>
-</div>
-    
-        <div class="card widget">
-    <div class="card-content">
-        <div class="menu">
-            <h3 class="menu-label">
-                Tags
-            </h3>
-            <ul class="menu-list">
-                
-                <li>
-                    <a class="level is-marginless" href="/tags/web/">
-                        <span class="level-start">
-                            <span class="level-item">web</span>
-                        </span>
-                        <span class="level-end">
-                            <span class="level-item tag">1</span>
-                        </span>
-                    </a>
-                </li>
-                
-            </ul>
-        </div>
-    </div>
-</div>
-    
-    
-</div>
-
-            </div>
-        </div>
-    </section>
-    <footer class="footer">
+<!-- Footer -->
+<!-- Footer -->
+<footer>
     <div class="container">
-        <div class="level">
-            <div class="level-start has-text-centered-mobile">
-                <a class="footer-logo is-block has-mb-6" href="/">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <br>
+                <ul class="list-inline text-center">
                 
-                    <img src="/images/logo.svg" alt="Hexo" height="28">
                 
-                </a>
-                <p class="is-size-7">
-                &copy; 2019 John Doe&nbsp;
-                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a href="http://github.com/ppoffice/hexo-theme-icarus">Icarus</a>
+                
+
+                
+
+                
+
+                
+
+                
+
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Hexo 2019
+                    <br>
+                    <span id="busuanzi_container_site_pv" style="font-size: 12px;">PV: <span id="busuanzi_value_site_pv"></span> Times</span>
+                    <br>
+                    Theme by <a href="https://haojen.github.io/">Haojen Ma</a>
                 </p>
-            </div>
-            <div class="level-end">
-            
-                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
-                
-                
-                <p class="control">
-                    <a class="button is-white is-large" target="_blank" title="Creative Commons" href="https://creativecommons.org/">
-                        
-                        <i class="fab fa-creative-commons"></i>
-                        
-                    </a>
-                </p>
-                
-                <p class="control">
-                    <a class="button is-white is-large" target="_blank" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/">
-                        
-                        <i class="fab fa-creative-commons-by"></i>
-                        
-                    </a>
-                </p>
-                
-                <p class="control">
-                    <a class="button is-white is-large" target="_blank" title="Download on GitHub" href="http://github.com/ppoffice/hexo-theme-icarus">
-                        
-                        <i class="fab fa-github"></i>
-                        
-                    </a>
-                </p>
-                
-                </div>
-            
+
             </div>
         </div>
     </div>
 </footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
-<script>moment.locale("en");</script>
 
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
 
-    
-    
-    
-    <script src="/js/animation.js"></script>
-    
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
 
-    
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
-    <script src="/js/gallery.js" defer></script>
-    
+<!-- Custom Theme JavaScript -->
+<script src="/js/blog.js"></script>
 
-    
-    
-
-<div id="outdated">
-    <h6>Your browser is out-of-date!</h6>
-    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update
-            my browser now </a></p>
-    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
+<!-- async load function -->
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        outdatedBrowser({
-            bgColor: '#f25648',
-            color: '#ffffff',
-            lowerThan: 'flex'
-        });
-    });
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("http://yoursite.com/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
 </script>
 
 
-    
-    
-<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-    MathJax.Hub.Config({
-        'HTML-CSS': {matchFontHeight: false},
-        SVG: {matchFontHeight: false},
-        CommonHTML: {matchFontHeight: false}
-    });
-});
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+<!-- swiftype -->
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install','','2.0.0');
 </script>
 
-    
-    
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-<a id="back-to-top" title="Back to Top" href="javascript:;">
-    <i class="fas fa-chevron-up"></i>
-</a>
-<script src="/js/back-to-top.js" defer></script>
-
-
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
-    <script src="/js/clipboard.js" defer></script>
-    
-
-    
-
-
-<script src="/js/main.js" defer></script>
-
-    
-    <div class="searchbox ins-search">
-    <div class="searchbox-container ins-search-container">
-        <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="Type something...">
-            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="searchbox-result-wrapper ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-    (function (window) {
-        var INSIGHT_CONFIG = {
-            TRANSLATION: {
-                POSTS: 'Posts',
-                PAGES: 'Pages',
-                CATEGORIES: 'Categories',
-                TAGS: 'Tags',
-                UNTITLED: '(Untitled)',
-            },
-            CONTENT_URL: '/content.json',
-        };
-        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-    })(window);
-</script>
-<script src="/js/insight.js" defer></script>
-<link rel="stylesheet" href="/css/search.css">
-<link rel="stylesheet" href="/css/insight.css">
-    
+<!--wechat title img-->
+<img class="wechat-title-img" src="">
 </body>
+
 </html>
